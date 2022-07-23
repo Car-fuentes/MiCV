@@ -7,6 +7,7 @@ import { HeaderComponent } from './folder/header/header.component';
 import { BannerComponent } from './folder/banner/banner.component';
 import { AboutmeComponent } from './folder/aboutme/aboutme.component';
 import { ExperienceComponent } from './folder/experience/experience.component';
+import { FooterComponent } from './folder/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ExperienceComponent } from './folder/experience/experience.component';
     HeaderComponent,
     BannerComponent,
     AboutmeComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
